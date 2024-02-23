@@ -33,7 +33,7 @@ body {
     transition: transform 3s ease;
 }
 
-.search .intput{
+.search .input{
     background-color: white;
     border: 0;
     font-size: 18px;
