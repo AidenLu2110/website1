@@ -24,12 +24,13 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    fornt-size: 24px;
+    font-size: 24px;
     background-color: white;
     border: 0;
     height: 50px;
     width: 50vw;
     cursor: pointer;
+    transition: transform 3s ease;
 }
 
 .search .intput{
@@ -39,6 +40,7 @@ body {
     height: 50px;
     width: 200px;
     padding: 15px;
+    transition: width 3s ease;
 }
 
 .search .input:focus {
