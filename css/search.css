@@ -1,0 +1,54 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.search {
+    height: 50px;
+    position: relative;
+}
+
+.active .btn{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    fornt-size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50vw;
+    cursor: pointer;
+}
+
+.search .intput{
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 15px;
+}
+
+.search .input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(198);
+}
