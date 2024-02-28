@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    font-family: "Kode Mono", monospace;
 }
 
 .container {
