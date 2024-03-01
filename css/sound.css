@@ -20,5 +20,6 @@ body {
     background-color: violet;
     border: 0;
     padding: 15px;
-    
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%);
+    border-radius: 2%;
 }
