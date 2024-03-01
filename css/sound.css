@@ -16,4 +16,8 @@ body {
 .btn {
     height: 50px;
     position: relative;
+    cursor: pointer;
+    background-color: violet;
+    border: 0;
+    padding: 
 }
