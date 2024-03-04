@@ -14,14 +14,14 @@ body {
 }
 
 .btn {
-    height: 50px;
     position: relative;
+    font-size: 1.2rem;
     cursor: pointer;
-    background-color: violet;
+    background-color: rebeccapurple;
     border: 0;
-    padding: 15px;
-    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%);
-    border-radius: 2%;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
     margin: 10px;
     color: white;
+    border: none;
 }
