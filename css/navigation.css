@@ -48,3 +48,12 @@ body {
     font-size: 46px;
     margin: 0 0 20px;
 }
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content h2, .content h3 {
+    font-size: 150%;
+}
