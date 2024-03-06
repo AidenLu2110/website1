@@ -3,6 +3,7 @@
 :root {
     --primary-color: rgb(48, 51, 107);
     --secondary-color: #be2edd;
+    --modal-duration: 1s;
 }
 
 * {
@@ -12,4 +13,14 @@
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
+}
+
+nav {
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-right: 2px solid rgba(200, 200, 200, 0.1);
 }
