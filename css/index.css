@@ -12,3 +12,21 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+.btn {
+    position: relative;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rebeccapurple;
+    border: 0;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
