@@ -25,5 +25,5 @@ nav {
     border-right: 2px solid rgba(200, 200, 200, 0.1);
     z-index: 100;
     color: white;
-    translate: translatex(-100%);
+    /* translate: translatex(-100%); */
 }
