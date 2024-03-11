@@ -1,6 +1,6 @@
 toggle = document.getElementById('toggle')
 open = document.getElementById('open')
-modal = document.getElementById('moda')
+modal = document.getElementById('modal')
 close = document.getElementById('close')
 
 // Toggle Nav
