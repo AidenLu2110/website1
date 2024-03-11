@@ -126,6 +126,10 @@ button, input[type ='submit'] {
     display: none;
 }
 
+.modal-container.show-modal {
+    display: block;
+}
+
 .modal {
     background: white;
     position: absolute;
@@ -162,7 +166,7 @@ modal-header h3 {
     margin-bottom: 5px;
 }
 
-.modal-form .form-input {
+.modal-form.form-input {
     padding: 8px;
     width: 100%;
 }
