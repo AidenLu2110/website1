@@ -5,7 +5,7 @@ close = document.getElementById('close')
 
 // Toggle Nav
 toggle.addEventListener('click', () => {
-    document.body.classlist.toggle('show-nav')
+    document.body.classList.toggle('show-nav')
 })
 
 //Show Modal
