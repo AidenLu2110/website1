@@ -139,3 +139,20 @@ button, input[type ='submit'] {
     padding: 15px;
 }
 
+modal-header h3 {
+    margin: 0;
+    border-bottom: 1 px solid #333;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-form div {
+    margin: 15px 0;
+}
+
+.modal-form label {
+    display: block;
+    margin-bottom: 5px;
+}
